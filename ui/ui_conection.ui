@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ui_conection</class>
+ <widget class="QWidget" name="ui_conection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>321</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>321</width>
+    <height>451</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>321</width>
+    <height>451</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Conection</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QWidget {
+    background-color: #f8f9fa; 
+    font-family: &quot;Roboto&quot;, &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 14px;
+    color: #202124; 
+}
+
+QLabel {
+    color: #5f6368; 
+    margin-bottom: 8px; 
+    font-weight: normal; 
+}
+
+QLineEdit {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px; 
+    margin-bottom: 15px;
+    font-size: 16px;
+    selection-background-color: #1a73e8;
+    selection-color: #fff;
+}
+
+QLineEdit:focus {
+    outline: none;
+    border-color: #1a73e8;  
+}
+
+QPushButton {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px; 
+    font-weight: bold;
+    qproperty-default: false; 
+}
+
+QPushButton:hover {
+    background-color: #3c83f1; 
+}
+
+QPushButton:pressed {
+    background-color: #185abc;
+}
+
+QPushButton#conectarButton { 
+    padding: 10px 24px; 
+    font-size: 16px;
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>321</width>
+     <height>451</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>321</width>
+     <height>451</height>
+    </size>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_host">
+      <property name="text">
+       <string>Host:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QLineEdit" name="line_host"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_user">
+      <property name="text">
+       <string>User:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="line_user"/>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLabel" name="label_password">
+      <property name="text">
+       <string>Password:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="line_password"/>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QLabel" name="label_database">
+      <property name="text">
+       <string>Data Base:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="line_database"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_port">
+      <property name="text">
+       <string>Port:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="line_port"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="button_conectar">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Conectar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

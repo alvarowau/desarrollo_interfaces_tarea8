@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de configuración de entorno
+*.env
+.env.*
+
+# Archivos creados por herramientas
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de Cython
+*.c
+*.cpp
+
+# Archivos de pruebas
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# VSCode
+.vscode/
+
+# IDEs y editores
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini

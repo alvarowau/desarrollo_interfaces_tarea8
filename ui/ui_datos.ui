@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_datos</class>
+ <widget class="QWidget" name="w_datos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>510</width>
+    <height>374</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>510</width>
+    <height>374</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>datos</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+QLabel {
+    font-weight: 500;
+    color: #202124;
+    margin-bottom: 8px;
+   
+}
+
+QPushButton {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+QPushButton{ 
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #c82333; 
+}
+
+</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Nombre:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Correo:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Fecha actual:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>última conexión</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>salir</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_correo">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-style: italic; 
+    color: #6c757d; 
+}</string>
+     </property>
+     <property name="text">
+      <string>alvaro@alvaro.com</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_nombre">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-weight: normal; /* No negrita */
+    color: #007bff; /* Color azul */
+    font-size: 1.2em; /* Un poco más grande */
+}</string>
+     </property>
+     <property name="text">
+      <string>Alvaro</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_fecha_actual">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #28a745; 
+}</string>
+     </property>
+     <property name="text">
+      <string>fecha</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_ultima">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #dc3545; 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>fecha</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
