@@ -49,7 +49,7 @@ Una vez conectado, la aplicación:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/alvarowau/TAREA8_DI.git
+   git clone https://github.com/alvarowau/desarrollo_interfaces_tarea8
    cd TAREA8_DI
    ```
 
